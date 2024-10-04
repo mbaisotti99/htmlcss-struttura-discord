@@ -166,3 +166,32 @@ header .container {
     min-height: 200px;
     border: 1px solid rgb(255, 60, 16);
 }
+
+/* Footer */
+footer{
+    padding: 50px;
+    background-color: rgb(33, 31, 31);
+    border-top: 2px solid white;
+}
+footer .container{
+    background-color: palegoldenrod;
+    align-content: space-between;
+}
+
+.foot-cont:first-child{
+    flex-basis: 200px;
+    margin: 100px 0;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(6, 125, 14);
+}
+
+.foot-cont:nth-child(2){
+    
+    flex-basis: 200px;
+    margin: 100px 0;
+    
+        /* debug */
+        min-height: 200px;
+        border: 1px solid rgb(123, 0, 255);
+}
