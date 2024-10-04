@@ -147,13 +147,21 @@ header .container {
 }
 
 /* Sezione 7 */
-.sez7{
-    background-color: azure;
+.sez7 {
+    background-color: rgb(23, 33, 33);
     padding: 50px;
 }
 
+.sez7-cont:first-child {
+    background-color: salmon;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(20, 0, 240);
+}
+
 .sez7-cont:nth-child(1n+2) {
-    width: 20%; 
+    width: 20%;
+    background-color: aqua;
     /* debug */
     min-height: 200px;
     border: 1px solid rgb(255, 60, 16);
