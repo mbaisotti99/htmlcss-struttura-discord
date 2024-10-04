@@ -6,57 +6,59 @@
 }
 
 img {
-max-width: 100%;
+    max-width: 100%;
 }
 
 /* COMMON */
-.container{
+.container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.flex-cont{
+.flex-cont {
     display: flex;
 }
 
 /* HEAD */
-header{
+header {
     background-color: rgb(108, 161, 208);
     padding: 15px;
-    
+
 }
 
-header .container{
+header .container {
     background-color: yellowgreen;
 }
 
-.container .headsect{
+.container .headsect {
     margin: 10px;
 }
-.headsect a:hover{
-    color:blue;
-    font-size: larger; 
+
+.headsect a:hover {
+    color: blue;
+    font-size: larger;
 }
 
-.headsect:nth-child(1), .headsect:nth-child(3){
+.headsect:nth-child(1),
+.headsect:nth-child(3) {
     width: 30%;
 }
 
-.headsect:nth-child(2){
+.headsect:nth-child(2) {
     width: 70%;
 }
 
-/* Sezione 2 */
 
-.sez2{
+/* Sezione 2 */
+.sez2 {
     background-color: rgba(44, 44, 226, 0.371);
     padding: 30px 0;
 }
 
-.sez2-cont{
+.sez2-cont {
     background-color: lightgreen;
-   margin: 50px;
+    margin: 50px;
     /* debug */
     min-height: 200px;
     border: 1px solid blue;
@@ -64,12 +66,12 @@ header .container{
 
 
 /* Sezione 3  */
-.sez3{
+.sez3 {
     background-color: bisque;
     padding: 50px;
 }
 
-.sez3-cont:first-child{
+.sez3-cont:first-child {
     background-color: aquamarine;
     width: 70%;
     /* debug */
@@ -77,10 +79,82 @@ header .container{
     border: 1px solid orange;
 }
 
-.sez3-cont2{    
+.sez3-cont2 {
     width: 30%;
     background-color: blueviolet;
     /* debug */
     min-height: 200px;
     border: 1px solid rgb(46, 173, 0);
+}
+
+
+/* Sezione 4 */
+.sez4 {
+    background-color: royalblue;
+    padding: 50px;
+}
+
+.sez4-cont {
+    background-color: burlywood;
+    width: 50%;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(46, 173, 0);
+}
+
+.sez4-cont2 {
+    background-color: lawngreen;
+    width: 70%;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(46, 173, 0);
+}
+
+
+/* Sezione 5 */
+.sez5 {
+    background-color: azure;
+    padding: 30px;
+}
+
+.sez5-cont:nth-child(1) {
+    width: 70%;
+    background-color: powderblue;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(104, 220, 62);
+}
+
+.sez5-cont:nth-child(2) {
+    background-color: saddlebrown;
+    width: 30%;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(227, 255, 18);
+}
+
+/* Sezione 6 */
+.sez6 {
+    background-color: teal;
+    padding: 50px;
+}
+
+.sez6-cont {
+    background-color: palegoldenrod;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(216, 28, 131);
+}
+
+/* Sezione 7 */
+.sez7{
+    background-color: azure;
+    padding: 50px;
+}
+
+.sez7-cont:nth-child(1n+2) {
+    width: 20%; 
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(255, 60, 16);
 }
