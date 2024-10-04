@@ -37,3 +37,12 @@ header .container{
     color:blue;
     font-size: larger; 
 }
+
+.headsect:nth-child(1), .headsect:nth-child(3){
+    width: 30%;
+}
+
+.headsect:nth-child(2){
+    width: 70%;
+}
+
