@@ -22,8 +22,9 @@ max-width: 100%;
 
 /* HEAD */
 header{
-    background-color: aliceblue;
+    background-color: rgb(108, 161, 208);
     padding: 15px;
+    
 }
 
 header .container{
@@ -46,3 +47,40 @@ header .container{
     width: 70%;
 }
 
+/* Sezione 2 */
+
+.sez2{
+    background-color: rgba(44, 44, 226, 0.371);
+    padding: 30px 0;
+}
+
+.sez2-cont{
+    background-color: lightgreen;
+   margin: 50px;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid blue;
+}
+
+
+/* Sezione 3  */
+.sez3{
+    background-color: bisque;
+    padding: 50px;
+}
+
+.sez3-cont:first-child{
+    background-color: aquamarine;
+    width: 70%;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid orange;
+}
+
+.sez3-cont2{    
+    width: 30%;
+    background-color: blueviolet;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid rgb(46, 173, 0);
+}
